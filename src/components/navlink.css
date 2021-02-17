@@ -1,0 +1,29 @@
+.navlink{
+    text-decoration: none!important;
+    color: black;
+    outline: none;
+}
+
+.navlink:hover{
+    color: black;
+}
+.logout{
+    cursor: pointer;
+}
+.ulist{
+    
+    display: flex;
+    align-items: flex-start;
+    margin-left: 150px;
+}
+
+li{
+    padding-right: 50px;
+    list-style-type:none;
+}
+
+@media(max-width: 680px) {
+    .navlinks-main{
+        display:none;
+    }
+}

@@ -1,0 +1,52 @@
+
+.menu-btn
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    height: 35px;
+    width: 30px;
+    background: transparent;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    padding-top: 5px;
+    padding-left: 15px;
+
+
+}
+.menu-listbtn{
+  
+    height: 5px;
+    width: 30px;
+    background-color: teal;
+}
+
+.menubtn{
+    display: flex;
+    flex-direction: column;
+
+}
+.links{
+    
+    display: contents;
+}
+.navlinks{
+    color: white;
+    padding-left: 0;
+
+}
+.navlinks-component{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width:681px){
+    .menu-btn{
+    display: none;
+        
+    }
+}

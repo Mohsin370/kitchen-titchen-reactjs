@@ -1,0 +1,139 @@
+.addrecipe{
+    text-align: center;
+    padding-top: 50px; 
+   font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+   
+}
+label{
+    margin-right: 30px;
+}
+
+.title input{
+    background-color: #eee;border: none;
+	padding: 12px 15px;
+    width: 20%;
+    border-radius: 10px ;
+    margin-top: 30px;
+    outline: none;
+    font-size: 18px;
+}
+
+.img input{
+    background-color: #eee;
+    border: none;
+	padding: 12px 15px;
+    width: 20%;
+    border-radius: 10px ;
+    margin-top: 30px;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.ingredients textarea{
+    background-color: #eee;border: none;
+	padding: 12px 15px;
+    width: 35%;
+    height: 250px;
+    border-radius: 10px ;
+    margin-top: 30px;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.addrecipe-button{
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #5bb1cc;
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.ingredients{
+    margin-right: 5%;
+}
+.title{
+    margin-right: 5%;
+}
+.img{
+    margin-right: 9%;
+
+}
+.display-positive-result{
+    margin: auto;
+    width: 25%;
+    height: 50px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color: rgb(20, 20, 20);
+    cursor: default;
+
+    animation: fadeIn 4s ;
+    
+}
+
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+
+.display-negative-result{
+    margin: auto;
+    width: 35%;
+    height: 50px;
+    background-color: rgb(206, 91, 91);
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    
+    animation: fadeIn 4s ;
+    
+}
+
+.image-upload{
+
+    padding-top: 10px;
+    position: relative;
+
+}
+
+.center{
+    text-align: center;
+}
+
+@media (max-width: 480px){
+    .title > label{
+        display: none;
+    }
+    .ingredients>label{
+        display:none;
+    }
+    .img >label{
+        display:none;
+    }
+    .title input{
+        width: 70%;
+    }
+    .ingredients textarea{
+        width: 70%;
+    }
+    .img input{
+        width: 70%;
+    }
+}

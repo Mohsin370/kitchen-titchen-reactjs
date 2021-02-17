@@ -1,0 +1,33 @@
+.navlinkss{
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+.navlinkss:hover{
+    color: white;
+}
+
+.ulists{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+}
+
+.myli{
+    width: 100px;
+    padding-top: 2px;
+    margin-left: 3px;
+    margin-top: 5px;
+    list-style-type:none;
+    border-bottom: 1px solid black;
+}
+.myli:hover{
+    background-color: chocolate;
+    color: white;
+}
+
+@media(min-width: 680px) {
+    .navlink-main{
+        display:none;
+    }
+}

@@ -1,0 +1,25 @@
+
+.navbar h1{
+    margin-top: 0;
+}
+.link-class{
+    text-decoration: none !important;
+    color: black;
+
+}
+.link-class:hover{
+    color: black;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+}
+.main-navbar-container{
+    display: flex;
+    box-shadow: 0 4px 2px -2px gray;
+
+}

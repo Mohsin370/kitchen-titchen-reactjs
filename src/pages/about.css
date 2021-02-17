@@ -1,0 +1,41 @@
+.Main-about-image{
+    background: url('.././about.jpg');
+    max-height: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+.about-header{
+    color: white;
+    font-weight: 900;
+    font-size: 80px;
+}
+p{
+   font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+    
+}
+.points{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    background-color: #f57b51;
+    height: 250px;
+    max-height: 100%;
+    padding-top: 4%;
+    
+}
+.points p{
+    margin-bottom: 0;
+}
+.footer{
+    margin-top: 0;
+    background-color: teal;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    justify-content: center;
+}

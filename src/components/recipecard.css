@@ -1,0 +1,23 @@
+.recipe-card{
+    
+   font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+   text-align: center;
+   
+   width: 380px;
+}
+img{
+    width: 320px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.recipe-top{
+    margin-top: 25px;
+}
+
+.recipe-title{
+    height: 70px;
+    border-radius: 15px;
+
+    overflow: hidden;
+}

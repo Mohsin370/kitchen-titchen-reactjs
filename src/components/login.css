@@ -1,0 +1,38 @@
+.login-main{
+    
+    background-color: #4d4c7d;
+    width: 550px;
+    height: 500px;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+
+.login-header{
+    color:white;
+}
+
+.loginform{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 15%;
+}
+
+
+.login-btn{
+    margin-top:25px;
+    padding: 20px 35px 20px 35px;
+    border: none;
+    border-radius:15px;
+    background-color: #585799;
+    color: white;
+    outline: none;
+    font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+    cursor: pointer;
+
+}

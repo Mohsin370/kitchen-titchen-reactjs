@@ -1,0 +1,105 @@
+.details-page{
+    font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+}
+.image-detail {
+    width: 650px;
+    height: 80%;
+    max-width: 100%;
+    margin:  auto;
+    margin-bottom: 15px;
+}
+.recipe-details{
+    margin-bottom: 150px;
+    margin:auto;
+    width: 70%;
+}
+
+.recipe-details textarea{
+    padding: 20px 35px;
+    border-radius:25px;
+    width: 1080px;
+    max-width: 100%;
+    justify-content:center;
+    word-wrap:break-word;
+    background-color: lightgreen;
+    height: 200px;
+    resize: none;
+    outline: none;
+}
+.recipe-details p{
+    padding: 20px 35px;
+    border-radius:25px;
+    overflow:auto;
+    justify-content:center;
+    word-wrap:break-word;
+    background-color: lightgreen;
+    height: 200px;
+    
+}
+.detail-item{
+    max-width: 100%;
+    vertical-align: top;
+    background-color: aqua;
+}
+
+.description{
+    display:flex;
+    flex-direction: column;
+}
+
+.details-header{
+    padding-left: 25px;
+}
+.delete{
+    margin:auto;
+    margin-bottom: 30px;
+}
+.delbtn{
+    font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #ff4948;
+    outline: #fa2d2d;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.editbtn{
+    font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #c5b915;
+    outline: #c5b915;
+    padding: 10px 30px 10px 30px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+textarea::-webkit-scrollbar {
+    width: 0px;
+    background-color: #F5F5F5; }
+  
+  textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #4caf50; }
+
+
+
+
+
+
+
+
+    
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5; }
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #161616; }

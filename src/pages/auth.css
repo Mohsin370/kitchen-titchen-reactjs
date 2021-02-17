@@ -1,0 +1,18 @@
+.auth-main{
+    font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.container{
+    margin-top: 55px;
+    display:flex;
+    justify-content: center;
+
+}
+
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+}

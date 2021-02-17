@@ -1,0 +1,33 @@
+
+.heading{
+    font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.card-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.add-recipe{
+    
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(91, 176, 204);
+    color: white;
+    font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+    outline: none;
+    
+}
+.recipe-btn-main{
+    text-align: center;
+}
+h1{
+    font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.myrecipes-main{
+    padding-top: 35px;
+}
