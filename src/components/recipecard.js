@@ -8,9 +8,9 @@ import AltPic from '../alt.jpg'
 const RecipeCard = props => {
   const saveStorage = () => {
 
-    { localStorage.setItem('title', props.title) }
-    { localStorage.setItem('ingredients', props.ingredients) }
-    { localStorage.setItem('description', props.description) }
+     localStorage.setItem('title', props.title) 
+     localStorage.setItem('ingredients', props.ingredients) 
+     localStorage.setItem('description', props.description) 
       localStorage.setItem('imageurl', props.image);
     console.log(props.uid);
 

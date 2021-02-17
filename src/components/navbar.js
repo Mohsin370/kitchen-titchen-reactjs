@@ -8,13 +8,12 @@ const Navbar = (props) => {
     <div className="main-navbar-container">
       <Menubtn></Menubtn>
       <div className="navbar">
-
         <h1>
           <Link to="/" className="link-class">
             Kitchen titchen
-        </Link>
+          </Link>
         </h1>
-        <nav >
+        <nav>
           <NavLinks className="nav" loggedInFailure={props.loggedInFailure} />
         </nav>
       </div>

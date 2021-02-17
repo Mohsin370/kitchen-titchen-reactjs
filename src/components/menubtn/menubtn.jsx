@@ -19,7 +19,8 @@ const Menubtn = ()=>{
         </div>
 
        {state? <div className="links">
-            <Menulinks></Menulinks>
+            <Menulinks togglemenu={togglemenu}></Menulinks>
+            
         </div>:''}
     </div>
     )

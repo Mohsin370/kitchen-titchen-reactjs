@@ -18,6 +18,10 @@
     padding-left: 15px;
     font-family:  'Montserrat Alternates', Helvetica, Arial, sans-serif;
 }
+
+.navbar>h1{
+    font-size: 2rem;
+}
 .main-navbar-container{
     display: flex;
     box-shadow: 0 4px 2px -2px gray;

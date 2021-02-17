@@ -28,16 +28,15 @@
 .menubtn{
     display: flex;
     flex-direction: column;
+    padding: 5px;
 
 }
 .links{
-    
     display: contents;
 }
 .navlinks{
     color: white;
     padding-left: 0;
-
 }
 .navlinks-component{
     display: flex;
