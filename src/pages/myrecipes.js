@@ -63,8 +63,6 @@ class MyRecipes extends Component {
   }
 
   ScreenRenderer = () => {
-
-    //console.log(localStorage.getItem('isLoggedIn'));
     const isLoggedIn = localStorage.getItem('isLoggedIn');
     if (isLoggedIn === 'true') {
       return (
@@ -81,16 +79,8 @@ class MyRecipes extends Component {
     } else {
       return <h1>Please Sign in to use this feature</h1>
     }
-
-
-
   }
-
-
-
   render() {
-
-    console.log(this.props);
     return (
       <div >
         {

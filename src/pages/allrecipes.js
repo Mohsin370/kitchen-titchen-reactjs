@@ -83,10 +83,7 @@ class Allrecipes extends Component {
     return (
       <div className="myrecipes-main" id="allrecipes" style={{ minHeight:'100vh'}}>
         <h1 className="heading">Recipes only for you</h1>
-        <div className="center">
-          {" "}
           <Searchbar searchvalue={this.searchvalue}></Searchbar>{" "}
-        </div>
         <div className="card-display">{this.output()}</div>
       </div>
     );

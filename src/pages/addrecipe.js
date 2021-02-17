@@ -114,24 +114,6 @@ class AddRecipe extends Component {
       this.setState({ editable: false })
       console.log("Set false");
     }
-
-    //   axios.get(`/recipe-details/${this.props.match.params.uid}`)
-    //   .then((res)=>{
-    //     console.log(res);
-
-    //     this.setState({
-    //       Title: res.data.title,
-    //       imageurl: res.data.imageurl,
-    //       Ingredients: res.data.ingredients,
-    //       Description: res.data.description,  
-    //   })
-
-    // })
-    //   .catch(error=>console.error(error));
-
-
-
-
   }
   componentWillMount() {
     axios.get(`/recipe-details/${this.props.match.params.uid}`)
