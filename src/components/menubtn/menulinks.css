@@ -32,8 +32,12 @@
     height: 100%;
     background-color: #85603f;
     color: white;
-
 }
+.ulists a{
+    color: white;
+    width: 100%;
+}
+
 .closeNavbar{
     width: 40%;
     background-color: rgba(0,0,0,.3);
@@ -53,7 +57,6 @@
 }
 .myli:hover{
     background-color: chocolate;
-    color: white;
 }
 
 @media(min-width: 680px) {

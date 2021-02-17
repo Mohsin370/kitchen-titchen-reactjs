@@ -16,12 +16,12 @@ const Menulinks = (props) => {
       return (
         <div className="conatiner_nav">
           <ul className="ulists">
-            <li className="myli">
+            <li className="myli" onClick={props.togglemenu}>
                 <NavLink to="/allrecipes" className="navlinkss">
                   Recipes
                 </NavLink>
             </li>
-            <li className="myli">
+            <li className="myli" onClick={props.togglemenu}>
               <NavLink
                 to={`/myrecipes/${localStorage.getItem("userId")}`}
                 className="navlinkss"
@@ -29,12 +29,12 @@ const Menulinks = (props) => {
                 My Recipes
               </NavLink>
             </li>
-            <li className="myli">
+            <li className="myli" onClick={props.togglemenu}>
               <NavLink to="/about" className="navlink">
                 About
               </NavLink>
             </li>
-            <li className="myli" onClick={loggedInFailure}>
+            <li className="myli" onClick={loggedInFailure} onClick={props.togglemenu}>
               Logout
             </li>
           </ul>
