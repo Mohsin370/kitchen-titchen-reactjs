@@ -21,13 +21,13 @@
     border: none;
     background-color: grey;
     color: white;
-    outline: none;
     cursor: pointer;
     margin-top: 5rem;
     font-size: large;
     padding: 1rem 1.5rem 1rem 1.5rem ;
     transition-property: width background;
     transition-duration: 0.8s;
+    outline: none !important;
     
 }
 
