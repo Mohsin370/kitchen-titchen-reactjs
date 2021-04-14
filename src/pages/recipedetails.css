@@ -20,7 +20,8 @@
     width: 100%;
     justify-content:center;
     word-wrap:break-word;
-    background-color: lightgreen;
+    background-color: #bd9354;
+    color: white;
     height: 200px;
     resize: none;
     outline: none;
@@ -32,8 +33,9 @@
     overflow:auto;
     justify-content:center;
     word-wrap:break-word;
-    background-color: lightgreen;
+    background-color: #bd9354;
     height: 200px;
+    color: white;
     
 }
 .detail-item{
