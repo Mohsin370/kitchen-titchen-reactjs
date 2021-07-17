@@ -8,11 +8,9 @@ import Spinner from 'react-bootstrap/Spinner';
 class MyRecipes extends Component {
   state = {
     recipes: [],
-    isLoading:true
+    isLoading: true
 
   };
-
-
 
   displayCard = () => {
     if (this.state.recipes == "") {
@@ -35,10 +33,7 @@ class MyRecipes extends Component {
             ingredients={data.ingredients}
             description={data.description}
           />
-
         </Link>
-
-
       ));
     }
   };
@@ -46,20 +41,14 @@ class MyRecipes extends Component {
 
 
   componentDidMount() {
-
-
-
-
     const userId = {
       userId: localStorage.getItem('userId')
     }
     axios
       .post("myrecipe/:id", userId)
       //.post("users/myrecipe/", userId) 
-      .then(Response => this.setState({ recipes: Response.data, isLoading:false }))
+      .then(Response => this.setState({ recipes: Response.data, isLoading: false }))
       .catch(err => console.log(err));
-
-
   }
 
   ScreenRenderer = () => {
@@ -77,12 +66,12 @@ class MyRecipes extends Component {
         </div>);
 
     } else {
-      return <h1>Please Sign in to use this feature</h1>
+      return <h1 className="d-flex align-items-center justify-content-center" style={{height:'80vh'}}>Please Sign in to use this feature</h1>
     }
   }
   render() {
     return (
-      <div >
+      <div className="">
         {
           this.ScreenRenderer()
         }

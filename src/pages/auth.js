@@ -1,24 +1,24 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./auth.css";
 import Login from "../components/login";
 import Signup from "../components/signup";
 
 class Auth extends Component {
-  
-  state ={
+
+  state = {
     isSubmitted: ''
   }
-  
 
-   updateState = () => {
-    this.setState({isSubmitted: true});
+
+  updateState = () => {
+    this.setState({ isSubmitted: true });
   };
-   negativeupdateState = () => {
-    this.setState({isSubmitted: false});
-     };
+  negativeupdateState = () => {
+    this.setState({ isSubmitted: false });
+  };
 
-   displaymessage = () => {
-     
+  displaymessage = () => {
+
     if (this.state.isSubmitted === true) {
       return <h1>Update Success!</h1>;
     } else if (this.state.isSubmitted === false) {
@@ -30,20 +30,20 @@ class Auth extends Component {
   };
 
 
-  render(){
-  return (
-    <div className="auth-main">
-      {this.displaymessage()}
-      <div className="container">
-        <Login onChange={this.getLoginData} onClick={this.checkLogin} />
-        <Signup
-          submitState={this.updateState}
-          negativeupdate={this.negativeupdateState}
-        />
+  render() {
+    return (
+      <div className="auth-main">
+        {this.displaymessage()}
+        <div className="container">
+          <Login onChange={this.getLoginData} onClick={this.checkLogin} />
+          <Signup
+            submitState={this.updateState}
+            negativeupdate={this.negativeupdateState}
+          />
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
 }
 
 export default Auth;
